@@ -1,0 +1,4 @@
+CC        := clang
+CFLAGS    := -Wall -Werror=implicit-function-declaration -O3 -std=gnu99 -pipe -fopenmp
+LDFLAGS   := -flto -O3 -fopenmp
+LIBS      += -lopenblas -fopenmp -lrt -lm

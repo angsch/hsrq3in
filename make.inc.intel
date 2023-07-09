@@ -1,0 +1,4 @@
+CC        := icx
+CFLAGS    := -Wall -std=gnu99 -O2 -mtune=skylake-avx512 -malign-double -qopenmp -ipo
+LDFLAGS   := -O2 -ipo -qopenmp
+LIBS      := -qmkl -lrt -lm
